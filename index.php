@@ -420,9 +420,21 @@ window.onscroll = function() {
    </header>	  
 
 
-	  <main class="flex-1 post" style="-webkit-overflow-scrolling:touch">
-				<div class="container bg-gray-100 mx-auto text-center font-bold text-xl">Settings</div>
-		</main>
+      <main class="flex-1 post pt-40" style="-webkit-overflow-scrolling:touch">
+                <div class="container bg-white mx-auto border">
+                    <div class="">
+                        <div class="text-center font-bold text-xl">
+                        Settings
+                        </div>
+                        <div class="flex flex-col items-center  ">
+						<div class="border rounded focus:ring-blue-700  transition hover:border-blue-700">
+						<input placeholder="@Profile" class="placeholder-red-500 focus:outline-none rounded p-2" readonly/>
+						<button class="hover:bg-blue-500 bg-blue-100 border-blue-400 text-blue-400 transition rounded hover:text-white font-bold p-2"> Edit </button> 
+                        </div>
+						</div>
+                    </div>
+                </div>
+        </main>
 
 	  
 
