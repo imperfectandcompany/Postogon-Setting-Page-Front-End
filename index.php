@@ -420,19 +420,58 @@ window.onscroll = function() {
    </header>	  
 
 
-      <main class="flex-1 post pt-40" style="-webkit-overflow-scrolling:touch">
+      <main class="flex-1 post pt-10 bg-blue-200" style="-webkit-overflow-scrolling:touch">
                 <div class="container bg-white mx-auto border">
-                    <div class="">
-                        <div class="text-center font-bold text-xl">
+                        <div class="text-center font-bold text-xl p-2">
                         Settings
+						<button class="hover:bg-blue-500 focus:outline-none bg-blue-100 border-blue-400 text-blue-400 transition rounded hover:text-white font-bold p-2"> Confirm </button> 
                         </div>
                         <div class="flex flex-col items-center  ">
-						<div class="border rounded focus:ring-blue-700  transition hover:border-blue-700">
-						<input placeholder="@Profile" class="placeholder-red-500 focus:outline-none rounded p-2" readonly/>
-						<button class="hover:bg-blue-500 bg-blue-100 border-blue-400 text-blue-400 transition rounded hover:text-white font-bold p-2"> Edit </button> 
+						<div class="border rounded focus:ring-blue-700  transition hover:border-blue-300">
+						<input placeholder="Name" class="placeholder-grey-400 focus:outline-none rounded p-2" readonly/>
                         </div>
 						</div>
-                    </div>
+
+						<div class="flex flex-col items-center pt-5">
+						<div class="border rounded focus:ring-blue-700  transition hover:border-blue-700">
+						<input placeholder="@Username" class="placeholder-grey-400 focus:outline-none rounded p-2" readonly/>
+                        </div>
+						</div>
+                        <div class="flex flex-col items-center pt-5">
+						<div class="border rounded focus:ring-blue-700  transition hover:border-blue-700">
+						<input placeholder="Password" class="placeholder-grey-400 focus:outline-none rounded p-2" readonly/>
+                        </div>
+						</div>
+						<div class="flex flex-col items-center pt-5">
+						<div class="border rounded focus:ring-blue-700  transition hover:border-blue-700">
+						<input placeholder="Confirm Password" class="placeholder-red-400 focus:outline-none rounded p-2" readonly/>
+                        </div>
+						</div>
+						<div class="flex flex-col items-center pt-5">
+						<div class="border rounded focus:ring-blue-700  transition hover:border-blue-700">
+						<input placeholder="Email" class="placeholder-grey-400 focus:outline-none rounded p-2" readonly/>
+                        </div>
+						</div>
+						<div class="flex flex-col items-center pt-5">
+						<div class="border rounded focus:ring-blue-700  transition hover:border-blue-700">
+						<input placeholder="Confirm Email" class="placeholder-red-400 focus:outline-none rounded p-2" readonly/>
+                        </div>
+						</div>
+						<div class="flex flex-col items-center pt-5">
+						<div class="border rounded focus:ring-blue-700  transition hover:border-blue-700">
+						<input placeholder="Bio" class="placeholder-grey-400 focus:outline-none rounded p-2" readonly/>
+                        </div>
+						</div>
+
+
+						<div class = "flex flex-col items-center pt-5">						
+						<button class="hover:bg-green-400 bg-green-500 border-green-200 transition text-white font-semibold hover:text-white font-semibold p-2">
+						Steam
+						</button>
+
+
+						</div>
+                </div>						
                 </div>
         </main>
 
